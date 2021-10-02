@@ -7,17 +7,17 @@ import Card from './components/layout/Card'
 
 const App = _ => (
   <div>
-    <h1>Fundamentos React</h1>
-    <Card title='Random Number'>
+    <h1>React Fundamentals</h1>
+    <Card title='#04 Random Number'>
       <Random max={10} min={5}></Random>
     </Card>
-    <Card title='React Fragment'>
+    <Card title='#03 React Fragment'>
       <Fragment />
     </Card>
-    <Card title='Component with props'>
+    <Card title='#02 Component with props'>
       <WithParameter title='second component' subtitle='with props'></WithParameter>
     </Card>
-    <Card title='First component'>
+    <Card title='#01 First component'>
       <First></First>
     </Card>
   </div>
