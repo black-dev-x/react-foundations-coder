@@ -10,16 +10,16 @@ const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
-      <Card title='#04 Random Number'>
+      <Card title='#04 Random Number' color='#FA6900'>
         <Random max={10} min={5}></Random>
       </Card>
-      <Card title='#03 React Fragment'>
+      <Card title='#03 React Fragment' color='#E94C6F'>
         <Fragment />
       </Card>
-      <Card title='#02 Component with props'>
+      <Card title='#02 Component with props' color='#E8B71A'>
         <WithParameter title='second component' subtitle='with props'></WithParameter>
       </Card>
-      <Card title='#01 First component'>
+      <Card title='#01 First component' color='#588C73'>
         <First></First>
       </Card>
     </section>
