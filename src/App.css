@@ -1,4 +1,5 @@
 .App .exercises {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
