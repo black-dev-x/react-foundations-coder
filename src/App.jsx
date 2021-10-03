@@ -6,13 +6,18 @@ import Fragment from './components/basics/Fragment'
 import Random from './components/basics/Random'
 import Card from './components/layout/Card'
 import Family from './components/basics/Family'
+import FamilyMember from './components/basics/FamilyMember'
 
 const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
       <Card title='#05 Component with children' color='#00C8F8'>
-        <Family />
+        <Family action='is ready!'>
+          <FamilyMember name='Alexander' surname='Hamilton'></FamilyMember>
+          <FamilyMember name='Melon' surname='Dusk'></FamilyMember>
+          <FamilyMember name='Black' surname='Gen'></FamilyMember>
+        </Family>
       </Card>
       <Card title='#04 Random Number' color='#FA6900'>
         <Random max={10} min={5}></Random>
