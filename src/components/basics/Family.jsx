@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Family = props => <div>{React.Children.map(props.children, el => React.cloneElement(el, props))}</div>
+const Family = props => <div>{props.children.map((el, i) => React.cloneElement(el, { ...props, key: i }))}</div>
 
 export default Family
