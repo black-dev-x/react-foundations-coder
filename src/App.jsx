@@ -5,11 +5,15 @@ import WithParameter from './components/basics/WithParameter'
 import Fragment from './components/basics/Fragment'
 import Random from './components/basics/Random'
 import Card from './components/layout/Card'
+import Family from './components/basics/Family'
 
 const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
+      <Card title='#05 Component with children' color='#00C8F8'>
+        <Family />
+      </Card>
       <Card title='#04 Random Number' color='#FA6900'>
         <Random max={10} min={5}></Random>
       </Card>
