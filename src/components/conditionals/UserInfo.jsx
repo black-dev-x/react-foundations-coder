@@ -1,5 +1,5 @@
 import React from 'react'
-import If from './If'
+import If, { Else } from './If'
 
 const UserInfo = props => {
   const user = props.user || {}
@@ -8,6 +8,7 @@ const UserInfo = props => {
       <div>
         Welcome <strong>{user.name}!</strong>
       </div>
+      <Else>Welcome stranger</Else>
     </If>
   )
 }

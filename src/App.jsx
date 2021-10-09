@@ -10,7 +10,6 @@ import FamilyMember from './components/basics/FamilyMember'
 import StudentList from './components/repeat/StudentList'
 import ProductTable from './components/repeat/ProductTable'
 import EvenOrOdd from './components/conditionals/EvenOrOdd'
-import If from './components/conditionals/If'
 import UserInfo from './components/conditionals/UserInfo'
 
 const user = {
