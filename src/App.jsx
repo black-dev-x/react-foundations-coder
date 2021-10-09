@@ -10,12 +10,20 @@ import FamilyMember from './components/basics/FamilyMember'
 import StudentList from './components/repeat/StudentList'
 import ProductTable from './components/repeat/ProductTable'
 import EvenOrOdd from './components/conditionals/EvenOrOdd'
+import If from './components/conditionals/If'
+import UserInfo from './components/conditionals/UserInfo'
+
+const user = {
+  name: 'Black'
+}
 
 const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
       <Card title='#08 - Conditional Rendering' color='#982395'>
+        <UserInfo />
+        <UserInfo user={user} />
         <EvenOrOdd number={20} />
         <EvenOrOdd number={23} />
       </Card>
