@@ -7,11 +7,15 @@ import Random from './components/basics/Random'
 import Card from './components/layout/Card'
 import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
+import StudentList from './components/repeat/StudentList'
 
 const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
+      <Card title='#06 - Repeating elements' color='#ff4C65'>
+        <StudentList />
+      </Card>
       <Card title='#05 Component with children' color='#00C8F8'>
         <Family action='is ready!'>
           <FamilyMember name='Alexander' surname='Hamilton'></FamilyMember>
