@@ -1,4 +1,13 @@
-.ProductTable {
-    display: flex;
-    justify-content: center;
+.ProductTable table{
+    width: 100%;
+}
+.ProductTable tbody tr:nth-child(2n){
+    background-color: #ddd;
+}
+.ProductTable tbody tr:nth-child(2n + 1){
+    background-color: #ccc;
+}
+.ProductTable thead tr {
+    background-color: #283cae;
+    color: white;
 }
