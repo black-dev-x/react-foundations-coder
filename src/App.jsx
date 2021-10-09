@@ -8,11 +8,15 @@ import Card from './components/layout/Card'
 import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
 import StudentList from './components/repeat/StudentList'
+import ProductTable from './components/repeat/ProductTable'
 
 const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
+      <Card title='#07 - Repeating products' color='#3A9AD9'>
+        <ProductTable />
+      </Card>
       <Card title='#06 - Repeating elements' color='#ff4C65'>
         <StudentList />
       </Card>

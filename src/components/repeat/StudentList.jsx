@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './StudentList.css'
 import students from '../../data/students'
 
 const StudentList = () => (
-  <div>
+  <div className='StudentList'>
     <ul>
       {students.map(student => (
         <li key={student.id}>
