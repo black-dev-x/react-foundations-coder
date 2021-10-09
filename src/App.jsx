@@ -9,11 +9,16 @@ import Family from './components/basics/Family'
 import FamilyMember from './components/basics/FamilyMember'
 import StudentList from './components/repeat/StudentList'
 import ProductTable from './components/repeat/ProductTable'
+import EvenOrOdd from './components/conditionals/EvenOrOdd'
 
 const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
+      <Card title='#08 - Conditional Rendering' color='#982395'>
+        <EvenOrOdd number={20} />
+        <EvenOrOdd number={23} />
+      </Card>
       <Card title='#07 - Repeating products' color='#3A9AD9'>
         <ProductTable />
       </Card>
