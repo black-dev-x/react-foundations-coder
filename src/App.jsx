@@ -11,6 +11,7 @@ import StudentList from './components/repeat/StudentList'
 import ProductTable from './components/repeat/ProductTable'
 import EvenOrOdd from './components/conditionals/EvenOrOdd'
 import UserInfo from './components/conditionals/UserInfo'
+import DirectParent from './components/comunication/DirectParent'
 
 const user = {
   name: 'Black'
@@ -20,6 +21,9 @@ const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
+      <Card title='#09 - Direct Communication' color='black'>
+        <DirectParent />
+      </Card>
       <Card title='#08 - Conditional Rendering' color='#982395'>
         <UserInfo />
         <UserInfo user={user} />
