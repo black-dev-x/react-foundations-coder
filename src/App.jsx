@@ -12,6 +12,7 @@ import ProductTable from './components/repeat/ProductTable'
 import EvenOrOdd from './components/conditionals/EvenOrOdd'
 import UserInfo from './components/conditionals/UserInfo'
 import DirectParent from './components/comunication/DirectParent'
+import IndirectParent from './components/comunication/IndirectParent'
 
 const user = {
   name: 'Black'
@@ -21,7 +22,10 @@ const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
-      <Card title='#09 - Direct Communication' color='black'>
+      <Card title='#10 - Indirect Communication' color='#8BAD39'>
+        <IndirectParent />
+      </Card>
+      <Card title='#09 - Direct Communication' color='#59323C'>
         <DirectParent />
       </Card>
       <Card title='#08 - Conditional Rendering' color='#982395'>
