@@ -1,5 +1,6 @@
 import './App.css'
 import React from 'react'
+import Input from './components/forms/Input'
 import First from './components/basics/First'
 import WithParameter from './components/basics/WithParameter'
 import Fragment from './components/basics/Fragment'
@@ -13,6 +14,7 @@ import EvenOrOdd from './components/conditionals/EvenOrOdd'
 import UserInfo from './components/conditionals/UserInfo'
 import DirectParent from './components/comunication/DirectParent'
 import IndirectParent from './components/comunication/IndirectParent'
+import Counter from './components/counter/Counter'
 
 const user = {
   name: 'Black'
@@ -22,6 +24,12 @@ const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
+      <Card title='#12 - Counter' color='#424242'>
+        <Counter startingNumber={10} />
+      </Card>
+      <Card title='#11 - Controlled Component (Input)' color='#E45F56'>
+        <Input />
+      </Card>
       <Card title='#10 - Indirect Communication' color='#8BAD39'>
         <IndirectParent />
       </Card>

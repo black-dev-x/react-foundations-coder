@@ -13,7 +13,7 @@ const ProductTable = () => (
       </thead>
       <tbody>
         {products.map(product => (
-          <tr>
+          <tr key={product.id}>
             <td>{product.id}</td>
             <td>{product.name}</td>
             <td>{product.price.toFixed(2)} $</td>
