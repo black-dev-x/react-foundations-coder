@@ -15,6 +15,7 @@ import UserInfo from './components/conditionals/UserInfo'
 import DirectParent from './components/comunication/DirectParent'
 import IndirectParent from './components/comunication/IndirectParent'
 import Counter from './components/counter/Counter'
+import Sortysa from './components/sort/Sortysa'
 
 const user = {
   name: 'Black'
@@ -24,6 +25,9 @@ const App = _ => (
   <div className='App'>
     <h1>React Fundamentals</h1>
     <section className='exercises'>
+      <Card title='#13 - Sorter' color='#424242'>
+        <Sortysa />
+      </Card>
       <Card title='#12 - Counter' color='#424242'>
         <Counter startingNumber={10} />
       </Card>
